@@ -106,8 +106,8 @@ I found this article <a href="http://stackoverflow.com/questions/12933418/footer
   
   ```CSS
   .clear {
-  clear: both;
-}
+    clear: both;
+  }
 ```
 
 
