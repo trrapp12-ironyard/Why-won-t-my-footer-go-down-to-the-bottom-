@@ -66,4 +66,52 @@ I found this article <a href="http://stackoverflow.com/questions/12933418/footer
 ###What the solution looks like in code
 ***
 
+```html
+          <div class="">
+            <img src="images/pexels-photo-127968.jpeg" alt="pic" class="photos medium"/>
+          </div>
+          <div class="center">
+            <h1>Contact</h1>
+            <p>
+              This is <a href="mailto:webmaster@example.com">contact info</a>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, et ut ut rutrum, interdum tempor aliquet sit, tristique elit. Turpis consectetuer mattis auctor.
+            </p>
+            <br>
+              <ul><h3>List</h3>
+                <li>Two</li>
+                <li>Keywords</li>
+              </ul>
+            </div>
+          </div>
+          <!--this is the div that will be clearing the footer. Notice that it is empty and just has the class of clear-->
+          <div class="clear">
+          </div>
+          <!--this is the footer that was making my life miserable-->
+          <footer class="footer">
+            <p>Posted by: Trevor Rapp</p>
+          </footer>
+    </body>
+  </html>
+  ```
+  
+  and here is the CSS
+  
+  ```CSS
+  .clear {
+  clear: both;
+}
+```
 
+###What the page looks like with the fix
+***
+
+![alt text][logo]
+
+[logo]: https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/Screen%20Shot%202016-09-29%20at%209.17.54%20PM.png
+
+Notice how the gray bar is now just a tiny strip on the bottom instead of a massive elephant dangling from the top of the screen.
+
+
+###P.S. don't make fun of the pics.  The website is definitely still ###WIP
