@@ -18,6 +18,9 @@ So here was my situation.  I had built out my html and put my footer at the very
 
 [logo]: https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/before.png
 
+*for some reason GitHub is not pointing to the right photo even though I have the right address.  Until this is resolved you can find the picture in this repo entitled "before.png" or follow this url: <a href="https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/before.png></a> 
+
+
 That big grey box shouldn't be there.  That's supposed to be a little tiny footer at the bottom of the page.
 
 
