@@ -2,15 +2,18 @@
 
 ***
 
+
+
 ###The symptoms of the problem
 ***
 So I was having a problem today that was quite a thorn in my side, if by thorn I mean a giant wooden stake grinding into my side reminding me that the CSS gods are only appeased by blood sacrifices.
 
 So here was my situation.  I had built out my html and put my footer at the very bottom where all good footers go.  But it wouldn't stay there.  
 
+
+
 ###What the problem looked like on screen
 ***
-
 
 ![alt text][logo]
 
@@ -19,8 +22,10 @@ So here was my situation.  I had built out my html and put my footer at the very
 That big grey box shouldn't be there.  That's supposed to be a little tiny footer at the bottom of the page.
 
 
+
 ###Code that caused the problem
 ***
+
 My html looked like this: 
 
 ```html
@@ -54,6 +59,7 @@ My html looked like this:
 ***
 
 I tried fumbling around with various things like `positon:fixed` or `postion:absolute` on the `<div>` or inline, but I couldn't get anything to work.  It sucked, like for a long time.
+
 
 
 ###FINALLY!  What worked.
@@ -104,14 +110,17 @@ I found this article <a href="http://stackoverflow.com/questions/12933418/footer
 }
 ```
 
+
+
 ###What the page looks like with the fix
 ***
 
 ![alt text][logo]
 
-[logo]: https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/Screen%20Shot%202016-09-29%20at%209.17.54%20PM.png
+[logo]: https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/Screen%20Shot%202016-09-29%20at%2010.42.29%20PM.png
 
 Notice how the gray bar is now just a tiny strip on the bottom instead of a massive elephant dangling from the top of the screen.
 
 
-###P.S. don't make fun of the pics.  The website is definitely still ###WIP
+###P.S. don't make fun of the pics.  The website is definitely still a ...
+#WIP
