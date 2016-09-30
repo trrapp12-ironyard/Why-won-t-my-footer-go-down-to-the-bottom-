@@ -17,7 +17,7 @@ So here was my situation.  I had built out my html and put my footer at the very
 
 ![alt text][logo]
 
-[logo]: https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/Screen%20Shot%202016-09-29%20at%209.17.54%20PM.png
+[logo]: https://github.com/trrapp12-ironyard/Why-won-t-my-footer-go-down-to-the-bottom-/blob/master/Screen%20Shot%202016-09-29%20at%2010.42.29%20PM.pngg
 
 That big grey box shouldn't be there.  That's supposed to be a little tiny footer at the bottom of the page.
 
