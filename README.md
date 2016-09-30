@@ -8,7 +8,8 @@ So here was my situation.  I had built out my html and put my footer at the very
 
 My code looked like this: 
 
-```html         <div class="row">
+```html
+        <div class="row">
           <div class="">
             <img src="images/pexels-photo-127968.jpeg" alt="pic" class="photos medium"/>
           </div>
@@ -33,4 +34,5 @@ My code looked like this:
             <p>Posted by: Trevor Rapp</p>
           </footer>
     </body>
-  </html> ```
+  </html> 
+  ```
