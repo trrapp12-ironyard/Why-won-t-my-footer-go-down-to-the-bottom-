@@ -2,11 +2,18 @@
 
 ***
 
+###The symptoms of the problem
+***
 So I was having a problem today that was quite a thorn in my side, if by thorn I mean a giant wooden stake grinding into my side reminding me that the CSS gods are only appeased by blood sacrifices.
 
 So here was my situation.  I had built out my html and put my footer at the very bottom where all good footers go.  But it wouldn't stay there.  
 
-My code looked like this: 
+###What the problem looked like on screen
+***
+
+###Code that caused the problem
+***
+My html looked like this: 
 
 ```html
          <div class="row">
@@ -34,3 +41,7 @@ My code looked like this:
     </body>
   </html>
   ```
+
+###What didn't work
+***
+I tried fumbling around with various things like 
