@@ -1,10 +1,10 @@
-#Why won't my footer go to the bottom of the page?
+# Why won't my footer go to the bottom of the page?
 
 ***
 
 
 
-###The symptoms of the problem
+### The symptoms of the problem
 ***
 So I was having a problem today that was quite a thorn in my side, and when I say "thorn" I mean "a giant wooden stake grinding into my side reminding me that the CSS gods are only appeased by blood sacrifices."
 
@@ -12,7 +12,7 @@ So here was my situation.  I had built out my html and put my footer at the very
 
 
 
-###What the problem looked like on screen
+### What the problem looked like on screen
 ***
 ![alt text][logo]
 
@@ -27,7 +27,7 @@ That big grey box shouldn't be there.  That's supposed to be a little tiny foote
 
 
 
-###Code that caused the problem
+### Code that caused the problem
 ***
 
 My html looked like this: 
@@ -59,21 +59,21 @@ My html looked like this:
   </html>
   ```
 
-###What didn't work
+### What didn't work
 ***
 
 I tried fumbling around with various things like `positon:fixed` or `postion:absolute` on the `<div>` or inline, but I couldn't get anything to work.  It sucked, like for a long time.
 
 
 
-###FINALLY!  What worked.
+### FINALLY!  What worked.
 ***
 
 I found this article <a href="http://stackoverflow.com/questions/12933418/footer-wont-go-to-the-bottom"></a>.  It explained that the problem was that the footer needed to be cleared.  Right?!!  That's what I said, just like we learned in class this week.  
 
 
 
-###What the solution looks like in code
+### What the solution looks like in code
 ***
 
 ```html
@@ -116,7 +116,7 @@ I found this article <a href="http://stackoverflow.com/questions/12933418/footer
 
 
 
-###What the page looks like with the fix
+### What the page looks like with the fix
 ***
 
 ![alt text][logo]
@@ -126,5 +126,5 @@ I found this article <a href="http://stackoverflow.com/questions/12933418/footer
 Notice how the gray bar is now just a tiny strip on the bottom instead of a massive elephant dangling from the top of the screen.
 
 
-###P.S. don't make fun of the pics.  The website is definitely still a ...
-#W.I.P
+### P.S. don't make fun of the pics.  The website is definitely still a ...
+# W.I.P
